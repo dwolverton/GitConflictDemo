@@ -15,6 +15,9 @@ public class DesignPatternsApp {
 
 		System.out.println("Shape 2...");
         shape2.draw();
+        
+        System.out.println("Shape 2...");
+        shape3.draw();
 
         // Singleton pattern
 		CounterSingleton counter1 = CounterSingleton.INSTANCE;
