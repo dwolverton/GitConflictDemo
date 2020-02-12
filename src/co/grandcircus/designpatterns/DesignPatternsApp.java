@@ -7,7 +7,7 @@ public class DesignPatternsApp {
 		// Factory pattern
 		Shape shape1 = ShapeFactory.getShape("CIRCLE");
 		Shape shape2 = ShapeFactory.getShape("SQUARE");
-		Shape shape3 = ShapeFactory.getShape("SQUARE");
+		Shape shape3 = ShapeFactory.getShape("Circle");
 
 
 		System.out.println("Shape 1...");
