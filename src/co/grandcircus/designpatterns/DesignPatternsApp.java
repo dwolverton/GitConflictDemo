@@ -8,7 +8,7 @@ public class DesignPatternsApp {
 
 		Shape shape1 = ShapeFactory.getShape("circle");
 		Shape shape2 = ShapeFactory.getShape("square");
-		Shape shape3 = ShapeFactory.getShape("SQUARE");
+		Shape shape3 = ShapeFactory.getShape("square");
 
 		System.out.println("Shape 1...");
 		shape1.draw();
@@ -16,7 +16,7 @@ public class DesignPatternsApp {
 		System.out.println("Shape 2...");
         shape2.draw();
         
-        System.out.println("Shape 2...");
+        System.out.println("Shape 3...");
         shape3.draw();
 
         // Singleton pattern
